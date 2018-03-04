@@ -1,0 +1,4 @@
+# ignore fold
+
+node_modules/*
+.idea/*
