@@ -137,3 +137,48 @@ correct
 | It can be changed in the coponents?           | No  |  Yes   |
 
 
+# for easy to control array
+
+- install Immutable-js library 
+npm install --save react-addons-update
+
+1. push
+
+```
+this.setState({
+    list: update(
+              this.state.list, 
+              {
+                  $push: [newObj, newObj2]
+              }
+});
+```
+
+2. delete
+
+```
+this.setState({
+    list: update(
+              this.state.list, 
+              {
+                  $splice: [[index, 1]]
+              }
+});
+```
+
+3. update
+
+```
+this.setState({
+    list: update(
+              this.state.list, 
+              {
+                  [index]: {
+                      field: { $set: "value" },
+                      field2: { $set: "value2" }
+                  }
+              }
+});
+```
+
+
