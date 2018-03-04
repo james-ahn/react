@@ -18,6 +18,7 @@ npm install --save-dev babel-core babel-loader babel-preset-react babel-preset-e
 
 # make the directory 
 
+```
 react
 ├── package.json         
 ├── public            # server public path
@@ -27,6 +28,6 @@ react
 │   │   └── App.js    
 │   └── index.js      # Webpack Entry point
 └── webpack.config.js 
-
+```
 # modify webpack.config.js
 
