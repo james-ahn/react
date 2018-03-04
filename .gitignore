@@ -1,4 +1,4 @@
 # ignore fold
+node_modules/*/
+.jshintrc
 
-node_modules/*
-.idea/*

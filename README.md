@@ -11,10 +11,13 @@ npm init
 
 # install Dependency and Plugin
 
+```
 (--save)
 npm install --save react react-dom
+
 (--save-dev)
 npm install --save-dev babel-core babel-loader babel-preset-react babel-preset-es2015 webpack webpack-dev-server
+```
 
 # make the directory 
 
