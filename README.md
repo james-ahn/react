@@ -129,3 +129,11 @@ correct
  - use CamelCase (first character should be Uppercase )
  
  
+# props and state
+
+|  feature | props | state |
+| :------- | ----: | :---: |
+| It can be changed value by parent components? | Yes |  No    |
+| It can be changed in the coponents?           | No  |  Yes   |
+
+
