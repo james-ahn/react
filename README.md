@@ -34,3 +34,8 @@ react
 ```
 # modify webpack.config.js
 
+# start
+
+npm install
+
+npm start
